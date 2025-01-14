@@ -1,0 +1,24 @@
+
+body{
+background-color: black;
+display: flex; /* Activa flexbox en el body */
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+height: 100vh; /* Asegura que el body tenga la altura completa de la ventana */
+margin: 0; /* Elimina cualquier margen predeterminado */
+}
+
+h1{
+   text-align: center;
+   margin-top:-140px; /*centra verticalmente*/
+   color: rgb(122, 154, 187);
+}
+
+img{
+      height: 450px; /*altura de la imagen*/
+      width: 450px;/*ancho de la imagen*/
+      margin-left: center; 
+      margin-top: -10px;
+     margin: -535px; /*Espaciado entre el texto y la imagen*/
+  }
